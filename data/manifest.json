@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-01T08:02:54.139Z",
+  "days": [
+    {
+      "date": "2026-07-01",
+      "sites": [
+        {
+          "slug": "bbc",
+          "name": "BBC",
+          "url": "https://www.bbc.com/news",
+          "status": "success",
+          "screenshot": "archive/2026-07/2026-07-01/bbc.png",
+          "capturedAt": "2026-07-01T08:00:32.996Z"
+        },
+        {
+          "slug": "cnn",
+          "name": "CNN",
+          "url": "https://edition.cnn.com/",
+          "status": "success",
+          "screenshot": "archive/2026-07/2026-07-01/cnn.png",
+          "capturedAt": "2026-07-01T08:00:57.435Z"
+        },
+        {
+          "slug": "ft",
+          "name": "Financial Times",
+          "url": "https://www.ft.com/",
+          "status": "success",
+          "screenshot": "archive/2026-07/2026-07-01/ft.png",
+          "capturedAt": "2026-07-01T08:01:06.124Z"
+        },
+        {
+          "slug": "the-times",
+          "name": "The Times",
+          "url": "https://www.thetimes.com/",
+          "status": "success",
+          "screenshot": "archive/2026-07/2026-07-01/the-times.png",
+          "capturedAt": "2026-07-01T08:01:15.479Z"
+        },
+        {
+          "slug": "nytimes",
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/",
+          "status": "success",
+          "screenshot": "archive/2026-07/2026-07-01/nytimes.png",
+          "capturedAt": "2026-07-01T08:01:44.691Z"
+        },
+        {
+          "slug": "washington-post",
+          "name": "The Washington Post",
+          "url": "https://www.washingtonpost.com/",
+          "status": "success",
+          "screenshot": "archive/2026-07/2026-07-01/washington-post.png",
+          "capturedAt": "2026-07-01T08:02:12.575Z"
+        },
+        {
+          "slug": "bloomberg",
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/",
+          "status": "success",
+          "screenshot": "archive/2026-07/2026-07-01/bloomberg.png",
+          "capturedAt": "2026-07-01T08:02:21.771Z"
+        },
+        {
+          "slug": "al-jazeera",
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/",
+          "status": "success",
+          "screenshot": "archive/2026-07/2026-07-01/al-jazeera.png",
+          "capturedAt": "2026-07-01T08:02:27.487Z"
+        }
+      ],
+      "successCount": 8,
+      "failedCount": 0
+    }
+  ]
+}
