@@ -47,6 +47,8 @@ function renderSiteCell(
   return `${site.name} — failed${reason}`;
 }
 
+const COLUMNS_PER_ROW = 2;
+
 function renderDayGrid(day: DayCaptureRecord, monthArchive?: string): string {
   const sites = sortSites(day.sites);
   const lines: string[] = [];
@@ -62,11 +64,11 @@ function renderDayGrid(day: DayCaptureRecord, monthArchive?: string): string {
     lines.push(`Failed: ${failed}`);
   }
   lines.push("");
-  lines.push("| | | |");
-  lines.push("| :----: | :----: | :----: |");
+  lines.push("| | |");
+  lines.push("| :----: | :----: |");
 
-  for (let i = 0; i < sites.length; i += 3) {
-    const row = sites.slice(i, i + 3).map((site) =>
+  for (let i = 0; i < sites.length; i += COLUMNS_PER_ROW) {
+    const row = sites.slice(i, i + COLUMNS_PER_ROW).map((site) =>
       renderSiteCell(
         site,
         site.screenshot && monthArchive
@@ -74,7 +76,7 @@ function renderDayGrid(day: DayCaptureRecord, monthArchive?: string): string {
           : site.screenshot,
       ),
     );
-    while (row.length < 3) {
+    while (row.length < COLUMNS_PER_ROW) {
       row.push("");
     }
     lines.push(`| ${row.join(" | ")} |`);
