@@ -1,0 +1,65 @@
+name: Daily News Screenshots
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: daily-capture
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Capture news homepages
+        run: npm run capture
+        env:
+          CI: true
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md archive data
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update news homepage screenshots"
+          for attempt in 1 2 3; do
+            if ! git pull --rebase origin main; then
+              echo "Rebase failed on attempt ${attempt}."
+              exit 1
+            fi
+            if git push origin main; then
+              echo "Push succeeded."
+              exit 0
+            fi
+            echo "Push rejected, retrying (${attempt}/3)..."
+            sleep 5
+          done
+          echo "Push failed after 3 attempts."
+          exit 1
