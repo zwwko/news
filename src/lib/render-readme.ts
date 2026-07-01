@@ -36,16 +36,15 @@ function toMonthRelativeScreenshot(screenshot: string, month: string): string {
 
 function renderSiteCell(
   site: DayCaptureRecord["sites"][number],
-  date: string,
   screenshotPath?: string,
 ): string {
   const imagePath = screenshotPath ?? site.screenshot;
   if (site.status === "success" && imagePath) {
-    return `| ![${site.name}](${imagePath}) [${site.name}](${imagePath}) |`;
+    return `![${site.name}](${imagePath}) [${site.name}](${imagePath})`;
   }
 
   const reason = site.error ? ` — ${site.error}` : "";
-  return `| ${site.name} — failed${reason} |`;
+  return `${site.name} — failed${reason}`;
 }
 
 function renderDayGrid(day: DayCaptureRecord, monthArchive?: string): string {
@@ -70,16 +69,15 @@ function renderDayGrid(day: DayCaptureRecord, monthArchive?: string): string {
     const row = sites.slice(i, i + 3).map((site) =>
       renderSiteCell(
         site,
-        day.date,
         site.screenshot && monthArchive
           ? toMonthRelativeScreenshot(site.screenshot, monthArchive)
           : site.screenshot,
       ),
     );
     while (row.length < 3) {
-      row.push("| |");
+      row.push("");
     }
-    lines.push(row.join(""));
+    lines.push(`| ${row.join(" | ")} |`);
   }
 
   lines.push("");
