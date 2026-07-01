@@ -77,22 +77,22 @@ export const NEWS_SITES: NewsSite[] = [
     ],
     settleMs: 2000,
   },
-  {
-    slug: "nytimes",
-    name: "The New York Times",
-    url: "https://www.nytimes.com/",
-    dismissSelectors: [
-      'button:has-text("Accept")',
-      'button:has-text("Agree")',
-      '[data-testid="GDPR-accept"]',
-    ],
-    hideSelectors: [
-      "#dock-container",
-      "[class*='css-rvl3on']",
-      "[data-testid='inline-message']",
-      "[class*='ad-slot']",
-    ],
-  },
+  // {
+  //   slug: "nytimes",
+  //   name: "The New York Times",
+  //   url: "https://www.nytimes.com/",
+  //   dismissSelectors: [
+  //     'button:has-text("Accept")',
+  //     'button:has-text("Agree")',
+  //     '[data-testid="GDPR-accept"]',
+  //   ],
+  //   hideSelectors: [
+  //     "#dock-container",
+  //     "[class*='css-rvl3on']",
+  //     "[data-testid='inline-message']",
+  //     "[class*='ad-slot']",
+  //   ],
+  // },
   // {
   //   slug: "wsj",
   //   name: "The Wall Street Journal",
@@ -112,34 +112,34 @@ export const NEWS_SITES: NewsSite[] = [
   //   settleMs: 3000,
   //   maxScrollHeight: 25_000,
   // },
-  {
-    slug: "washington-post",
-    name: "The Washington Post",
-    url: "https://www.washingtonpost.com/",
-    dismissSelectors: [
-      'button:has-text("Accept")',
-      'button:has-text("I Accept")',
-    ],
-    hideSelectors: [
-      "[data-qa='consent-banner']",
-      "[class*='ad-slot']",
-    ],
-  },
-  {
-    slug: "bloomberg",
-    name: "Bloomberg",
-    url: "https://www.bloomberg.com/",
-    dismissSelectors: [
-      'button:has-text("Accept")',
-      'button:has-text("I agree")',
-    ],
-    hideSelectors: [
-      "[class*='consent']",
-      "[class*='newsletter']",
-      "[data-component='ad-slot']",
-    ],
-    settleMs: 2000,
-  },
+  // {
+  //   slug: "washington-post",
+  //   name: "The Washington Post",
+  //   url: "https://www.washingtonpost.com/",
+  //   dismissSelectors: [
+  //     'button:has-text("Accept")',
+  //     'button:has-text("I Accept")',
+  //   ],
+  //   hideSelectors: [
+  //     "[data-qa='consent-banner']",
+  //     "[class*='ad-slot']",
+  //   ],
+  // },
+  // {
+  //   slug: "bloomberg",
+  //   name: "Bloomberg",
+  //   url: "https://www.bloomberg.com/",
+  //   dismissSelectors: [
+  //     'button:has-text("Accept")',
+  //     'button:has-text("I agree")',
+  //   ],
+  //   hideSelectors: [
+  //     "[class*='consent']",
+  //     "[class*='newsletter']",
+  //     "[data-component='ad-slot']",
+  //   ],
+  //   settleMs: 2000,
+  // },
   // {
   //   slug: "reuters",
   //   name: "Reuters",
@@ -157,18 +157,18 @@ export const NEWS_SITES: NewsSite[] = [
   //   settleMs: 2500,
   //   maxScrollHeight: 25_000,
   // },
-  {
-    slug: "al-jazeera",
-    name: "Al Jazeera",
-    url: "https://www.aljazeera.com/",
-    dismissSelectors: [
-      'button:has-text("Accept")',
-      'button:has-text("I agree")',
-    ],
-    hideSelectors: [
-      "[class*='cookie']",
-      "[class*='consent']",
-      "[class*='advert']",
-    ],
-  },
+  // {
+  //   slug: "al-jazeera",
+  //   name: "Al Jazeera",
+  //   url: "https://www.aljazeera.com/",
+  //   dismissSelectors: [
+  //     'button:has-text("Accept")',
+  //     'button:has-text("I agree")',
+  //   ],
+  //   hideSelectors: [
+  //     "[class*='cookie']",
+  //     "[class*='consent']",
+  //     "[class*='advert']",
+  //   ],
+  // },
 ];
