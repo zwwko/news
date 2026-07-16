@@ -1,7 +1,46 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T02:29:58.052Z",
+  "updatedAt": "2026-07-16T02:38:06.751Z",
   "days": [
+    {
+      "date": "2026-07-16",
+      "sites": [
+        {
+          "slug": "bbc",
+          "name": "BBC",
+          "url": "https://www.bbc.com/news",
+          "status": "success",
+          "screenshot": "archive/2026-07/2026-07-16/bbc.png",
+          "capturedAt": "2026-07-16T02:36:54.857Z"
+        },
+        {
+          "slug": "cnn",
+          "name": "CNN",
+          "url": "https://edition.cnn.com/",
+          "status": "success",
+          "screenshot": "archive/2026-07/2026-07-16/cnn.png",
+          "capturedAt": "2026-07-16T02:37:03.270Z"
+        },
+        {
+          "slug": "ft",
+          "name": "Financial Times",
+          "url": "https://www.ft.com/",
+          "status": "success",
+          "screenshot": "archive/2026-07/2026-07-16/ft.png",
+          "capturedAt": "2026-07-16T02:37:11.483Z"
+        },
+        {
+          "slug": "the-times",
+          "name": "The Times",
+          "url": "https://www.thetimes.com/",
+          "status": "success",
+          "screenshot": "archive/2026-07/2026-07-16/the-times.png",
+          "capturedAt": "2026-07-16T02:37:37.549Z"
+        }
+      ],
+      "successCount": 4,
+      "failedCount": 0
+    },
     {
       "date": "2026-07-15",
       "sites": [
