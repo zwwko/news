@@ -1,5 +1,14 @@
 # News Homepage Screenshots (2026-09)
 
+### 2026-09-24
+
+Success: 4/4
+
+| | |
+| :----: | :----: |
+| ![BBC](2026-09-24/bbc.png) [BBC](2026-09-24/bbc.png) | ![CNN](2026-09-24/cnn.png) [CNN](2026-09-24/cnn.png) |
+| ![Financial Times](2026-09-24/ft.png) [Financial Times](2026-09-24/ft.png) | ![The Times](2026-09-24/the-times.png) [The Times](2026-09-24/the-times.png) |
+
 ### 2026-09-23
 
 Success: 4/4
