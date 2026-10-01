@@ -2,17 +2,17 @@
 
 Daily screenshots of major news homepages.
 
-Latest capture: **2026-09-30**
+Latest capture: **2026-10-01**
 
-### 2026-09-30
+### 2026-10-01
 
 Success: 4/4
 
 | | |
 | :----: | :----: |
-| ![BBC](archive/2026-09/2026-09-30/bbc.png) [BBC](archive/2026-09/2026-09-30/bbc.png) | ![CNN](archive/2026-09/2026-09-30/cnn.png) [CNN](archive/2026-09/2026-09-30/cnn.png) |
-| ![Financial Times](archive/2026-09/2026-09-30/ft.png) [Financial Times](archive/2026-09/2026-09-30/ft.png) | ![The Times](archive/2026-09/2026-09-30/the-times.png) [The Times](archive/2026-09/2026-09-30/the-times.png) |
+| ![BBC](archive/2026-10/2026-10-01/bbc.png) [BBC](archive/2026-10/2026-10-01/bbc.png) | ![CNN](archive/2026-10/2026-10-01/cnn.png) [CNN](archive/2026-10/2026-10-01/cnn.png) |
+| ![Financial Times](archive/2026-10/2026-10-01/ft.png) [Financial Times](archive/2026-10/2026-10-01/ft.png) | ![The Times](archive/2026-10/2026-10-01/the-times.png) [The Times](archive/2026-10/2026-10-01/the-times.png) |
 
 ### 历史归档
 
-[2026-09](/archive/2026-09/) | [2026-08](/archive/2026-08/) | [2026-07](/archive/2026-07/)
+[2026-10](/archive/2026-10/) | [2026-09](/archive/2026-09/) | [2026-08](/archive/2026-08/) | [2026-07](/archive/2026-07/)
