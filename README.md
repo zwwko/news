@@ -2,16 +2,16 @@
 
 Daily screenshots of major news homepages.
 
-Latest capture: **2026-10-12**
+Latest capture: **2026-10-13**
 
-### 2026-10-12
+### 2026-10-13
 
 Success: 4/4
 
 | | |
 | :----: | :----: |
-| ![BBC](archive/2026-10/2026-10-12/bbc.png) [BBC](archive/2026-10/2026-10-12/bbc.png) | ![CNN](archive/2026-10/2026-10-12/cnn.png) [CNN](archive/2026-10/2026-10-12/cnn.png) |
-| ![Financial Times](archive/2026-10/2026-10-12/ft.png) [Financial Times](archive/2026-10/2026-10-12/ft.png) | ![The Times](archive/2026-10/2026-10-12/the-times.png) [The Times](archive/2026-10/2026-10-12/the-times.png) |
+| ![BBC](archive/2026-10/2026-10-13/bbc.png) [BBC](archive/2026-10/2026-10-13/bbc.png) | ![CNN](archive/2026-10/2026-10-13/cnn.png) [CNN](archive/2026-10/2026-10-13/cnn.png) |
+| ![Financial Times](archive/2026-10/2026-10-13/ft.png) [Financial Times](archive/2026-10/2026-10-13/ft.png) | ![The Times](archive/2026-10/2026-10-13/the-times.png) [The Times](archive/2026-10/2026-10-13/the-times.png) |
 
 ### 历史归档
 
